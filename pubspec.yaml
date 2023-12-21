@@ -1,0 +1,62 @@
+name: project
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  http: ^0.13.4
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  fluttertoast: ^8.0.9
+  shared_preferences: ^2.0.15
+  get: ^4.6.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/image/logo.png
+  - assets/image/full_logo.png
+  - assets/image/Rectangle_16.png
+  - assets/image/icon_moon.png
+  - assets/image/paper.png
+  - assets/image/profile.png
+  - assets/image/Ellipse 1.png
+  - assets/image/Vector 1.png
+  - assets/image/outline.png
+  - assets/image/video.png
+  - assets/image/bag.png
+  - assets/image/youtube.png
+  - assets/image/pdf.png
+  - assets/font/WorkSans-Regular.ttf
+  - assets/font/WorkSans-Bold.ttf
+  - assets/font/WorkSans-Medium.ttf
+
+  #  - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
